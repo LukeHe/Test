@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="第 1 页" id="1dqWBAPdmsaEZQbndAN_">
-    <mxGraphModel>
+    <mxGraphModel dx="1234" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-1" value="所有流量(100%)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="214" y="140" width="726" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-2" value="可发券(47.3%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="214" y="220" width="346" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-3" value="不可发券(52.7%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8A9BE;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-4" value="随机发券&lt;br&gt;(0.3%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="214" y="391" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-5" value="随机不发券&lt;br&gt;(0.4%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="270" y="391" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-6" value="策略发券&lt;br&gt;(6.5%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="330" y="391" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-7" value="策略不发券&lt;br&gt;(40.1%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="410" y="391" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;dashed=1;fontColor=#ffffff;strokeColor=#f40606;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="210" y="386.5" width="63" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;dashed=1;fontColor=#ffffff;strokeColor=#f40606;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="327" y="387" width="85" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-10" value="随机发券&lt;br&gt;(0.3%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="214" y="300" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-11" value="随机不发券&lt;br&gt;(0.4%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-12" value="模型决策&lt;br&gt;(46.6%)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zGFiyqdJIo06yxrbEE9x-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="410" as="sourcePoint" />
+            <mxPoint x="242" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zGFiyqdJIo06yxrbEE9x-12" target="zGFiyqdJIo06yxrbEE9x-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="310" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="zGFiyqdJIo06yxrbEE9x-12" target="zGFiyqdJIo06yxrbEE9x-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="370" as="sourcePoint" />
+            <mxPoint x="392" y="401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-17" value="by llsid分流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="315" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-18" value="覆盖场景&amp;amp;业务规则" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="130" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zGFiyqdJIo06yxrbEE9x-19" value="随机 or 模型决策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="406" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
